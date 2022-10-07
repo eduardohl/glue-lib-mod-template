@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "glue-lib-mod-template"
+version = "0.1.0"
+description = ""
+authors = ["eduardohl <lomonaco.eduardo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "glue_lib_mod_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
